@@ -1,0 +1,45 @@
+
+.itemsMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 20px;
+    /* width: 100%; */
+    width: 20vw;
+    max-height: 400px;
+    min-width: 100px;
+    overflow: hidden;
+    background-color: white;
+    /* flex-wrap: wrap; */
+    z-index: -1;
+    cursor: pointer;
+
+}
+.itemRating{
+    display: flex;
+    margin-left: 35px;
+    cursor: pointer;
+    
+}
+
+ .imageItems {
+    max-height: 200px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+
+  .itemPrice {
+    display: flex;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  
+  .itemsInfo {
+    margin-top: 10px;
+    height: 100px;
+    margin-bottom: 15px;
+  }

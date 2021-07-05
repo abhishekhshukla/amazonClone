@@ -1,0 +1,55 @@
+.navbar{
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    
+}
+
+.menuIcon{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    display: flex;
+    color: white;
+    
+}
+
+.navbarContent{
+    color: white;
+    display: flex;
+    margin-top: 5px;
+    margin-left: 12px;
+    padding-bottom: 8.8px;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.dropDownPrime{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  margin-top: 40px;
+  z-index: 1;
+
+}
+.imagePrime{
+    max-width: 40vw;
+    max-height: 40vh;
+    position: absolute;
+}
+.hoverPrime{
+    color: white;
+    position: relative;
+}
+.hoverPrime:hover .dropDownPrime{
+    display: block;
+
+}
+.navImage{
+/* display: flex; */
+    float: right;
+    margin-left: 5px;
+    cursor: pointer;
+}

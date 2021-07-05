@@ -1,0 +1,142 @@
+.header{
+    display: flex;
+    background-color: #131921;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.locationLogo{
+    color: white;
+}
+
+.hoverLanguage{
+    display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  margin-top: 1px;
+  list-style-type: none;
+  text-decoration: none;
+  z-index: 1;
+    
+}
+
+.headerLink:hover .hoverLanguage{
+    display: block
+}
+.langInput{
+    list-style-type: none;
+    padding: 20px;
+    text-decoration: none;
+    background-color: white;
+    margin: 20px
+}
+
+
+.hoverAccount{
+    display: none;
+    position: absolute;
+    flex-wrap: wrap;
+    float: left;
+    /* min-width: 10px; */
+    /* margin-right: 10px; */
+    z-index: 100;
+
+}
+
+.accountInfo:hover .hoverAccount{
+    display: flex;
+}
+.listItems{
+    list-style-type: none;
+    text-decoration: none;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.list{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border: solid  20px rgba(255, 255, 255, 0);
+    
+}
+.account{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+li {
+    text-decoration: none;
+    margin: 5px;
+}
+.indianFlag{
+    margin-top: 12px;
+    max-width: 30px;
+    max-height: 30px;
+    margin-left: 10px;
+}
+.headerLogo{
+    width: 100px;
+    margin-left: 10px;
+    object-fit: contain; 
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+.flag{color: white;}
+.headerItems{
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+.headerOptions{
+    display: flex;
+    /* margin: 10px; */
+    flex-direction: column;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
+
+.headerLine1{
+   font-size: 12px;
+   text-decoration: none;
+}
+.headerLine2{
+    font-size: 14px;
+    font-weight: 800;
+    text-decoration: none;
+}
+.basketIcon{
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    margin-right: 10px;    
+}
+.basketCount{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.headerSearch{
+  display: flex;
+  flex: 1;
+  border-radius: 5px;
+}
+.headerInput{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+
+}
+.headerSearchIcon{
+  background-color: #cf9446;
+  padding: 5px;
+  height: 22px !important; 
+  cursor: pointer;
+}
