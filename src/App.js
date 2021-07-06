@@ -23,11 +23,20 @@ function App() {
              <h1>checkout</h1>
            </Route>
 
+            <Route path="/orderDetails">
+              <Header/>
+              <h1>Order Details</h1>
+                </Route>  
+
+                <Route path="/address">
+              <Header/>
+              <h1>Any Where in India</h1>
+                </Route>  
+
            <Route path='/'>
              <Header/>
              <Navbar/>
              <Home/>
-             
            </Route>
            
          </Switch>

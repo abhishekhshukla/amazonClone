@@ -18,7 +18,7 @@ function Header() {
                    <RoomOutlinedIcon/>
                  </div>
                  </Link>
-                 <Link to="/signin" className="headerLink">
+                 <Link to="/address" className="headerLink">
                     <div className="headerOptions">
                     <span className="headerLine1">Hello</span>
                      <span className="headerLine2">Select your address</span>
@@ -92,7 +92,7 @@ function Header() {
                       </div>   
 
                    </div>
-                   <Link to="/" className="headerLink">
+                   <Link to="/orderDetails" className="headerLink">
                        <div className="headerOptions">
                      <span className="headerLine1">Return</span>
                      <span className="headerLine2">& Order</span>
