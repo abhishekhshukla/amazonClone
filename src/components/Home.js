@@ -2,6 +2,7 @@ import React from 'react'
 import './Home.css'
 import Items from './Items'
 import Homeflex from './Homeflex'
+import Fotter from './Fotter'
 function home() {
     return (
         <div >
@@ -12,7 +13,7 @@ function home() {
             title="Apple MacBook Air (13-inch, 8GB RAM, 128GB Storage, 1.8GHz Intel Core i5) - Silver" 
             rating={5}
             price={82599}
-            image="https://images-eu.ssl-images-amazon.com/images/G/31/img21/CEPC/Clearance/May21/V238940049_IN_PC_BAU_Edit_Creation_Laptops1x._SY304_CB667377205_.jpg"
+            image="https://images-eu.ssl-images-amazon.com/images/I/71LRBr1aLNS._AC_UL500_SR500,400_.jpg"
             
             />
 
@@ -20,21 +21,21 @@ function home() {
             title="Apple MacBook Air (13-inch, 8GB RAM, 128GB Storage, 1.8GHz Intel Core i5) - Silver" 
             rating={5}
             price={82599}
-            image="https://images-eu.ssl-images-amazon.com/images/G/31/img21/CEPC/Clearance/May21/V238940049_IN_PC_BAU_Edit_Creation_Laptops1x._SY304_CB667377205_.jpg"
+            image="https://m.media-amazon.com/images/I/317ZwBbdXLL._AC_SY200_.jpg"
             
             />
              <Items id={2133} 
             title="Apple MacBook Air (13-inch, 8GB RAM, 128GB Storage, 1.8GHz Intel Core i5) - Silver" 
             rating={5}
             price={82599}
-            image="https://images-eu.ssl-images-amazon.com/images/G/31/img21/CEPC/Clearance/May21/V238940049_IN_PC_BAU_Edit_Creation_Laptops1x._SY304_CB667377205_.jpg"
+            image="https://m.media-amazon.com/images/I/41CED+NsupL._AC_SY200_.jpg"
             
             />
              <Items id={2133} 
             title="Apple MacBook Air (13-inch, 8GB RAM, 128GB Storage, 1.8GHz Intel Core i5) - Silver" 
             rating={5}
             price={82599}
-            image="https://images-eu.ssl-images-amazon.com/images/G/31/img21/CEPC/Clearance/May21/V238940049_IN_PC_BAU_Edit_Creation_Laptops1x._SY304_CB667377205_.jpg"
+            image="https://m.media-amazon.com/images/I/41mQtYQUzmL._AC_SY200_.jpg"
             
             />
              <Items id={2133} 
@@ -68,6 +69,7 @@ function home() {
             </div>
                 <div>
                     <Homeflex/>
+                    <Fotter/>
                 </div>
         
         </div>

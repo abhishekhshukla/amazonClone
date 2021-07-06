@@ -37,16 +37,19 @@
 .hoverAccount{
     display: none;
     position: absolute;
-    flex-wrap: wrap;
-    float: left;
+    /* flex-wrap: wrap; */
+    
     /* min-width: 10px; */
     /* margin-right: 10px; */
+    margin-right: 20opx;
     z-index: 1;
+    
 
 }
 
 .accountInfo:hover .hoverAccount{
-    display: flex;
+    display: block;
+    margin-right: 100px;
 }
 .listItems{
     list-style-type: none;
