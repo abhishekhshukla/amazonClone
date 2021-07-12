@@ -1,4 +1,4 @@
-###Amazon Clone using React.js JSX HTML CSS
+# Amazon Clone using React.js JSX HTML CSS
 
 ![image](https://user-images.githubusercontent.com/66065167/125329356-07f9a200-e363-11eb-9ea2-dc73c53066fe.png)
 
