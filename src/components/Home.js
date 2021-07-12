@@ -3,6 +3,7 @@ import './Home.css'
 import Items from './Items'
 import Homeflex from './Homeflex'
 import Fotter from './Fotter'
+import Photobox from './Photobox'
 function home() {
     return (
         <div >
@@ -69,6 +70,9 @@ function home() {
             </div>
                 <div>
                     <Homeflex/>
+                     <Photobox/>
+                     <Homeflex/>
+                     <Photobox/>
                     <Fotter/>
                 </div>
         

@@ -1,0 +1,71 @@
+
+.photoContainer{
+    display: flex;
+    flex-direction: row;   
+    justify-content: center;
+   
+
+}
+
+.imgBox{
+    display: flex;
+    max-width: 415px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.89);
+    flex-wrap: wrap;
+    box-shadow: 10px 10px 20px rgba(139, 126, 126, 0.281);
+    cursor: pointer;
+    
+}
+
+.imageBox{
+  
+    margin: 10px;
+    max-width: 200px;
+}
+
+.innerContent{
+   
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    display: block;
+}
+
+.outerContent{
+    margin:20px;
+    color: rgba(5, 90, 82, 0.644);
+}
+
+.verticleImage{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 15px;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+   
+}
+.verticleBox{
+    
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.hide1{
+    box-shadow: 10px 10px 20px rgba(139, 126, 126, 0.281);
+    margin-bottom: 40px;
+}
+
+.buttomContent{
+    margin-left: 75px;
+    margin-top: 20px;
+    display: flex;
+    font-size: 20px;
+    width: 100%;
+}
