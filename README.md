@@ -1,6 +1,6 @@
 # Amazon Clone using React.js JSX HTML CSS
 
-###Tried To make exact replica of amazon.in using react.js, used hooks and JSX for component building. 
+### Tried To make exact replica of amazon.in using react.js, used hooks and JSX for component building. 
 
 ![image](https://user-images.githubusercontent.com/66065167/125329356-07f9a200-e363-11eb-9ea2-dc73c53066fe.png)
 
